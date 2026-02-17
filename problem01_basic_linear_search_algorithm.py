@@ -33,5 +33,5 @@ if __name__=="__main__":
     list_of_cards=[0,1,3,4,5,311,6724,6,6,7,8,8,9,10]
     print(fetch_the_card(list_of_cards,1000))
     print(fetch_the_card(list_of_cards,10))
-    print(fetch_the_card(list_of_cards,200))
+    print(fetch_the_card(list_of_cards,200)
 
