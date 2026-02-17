@@ -15,7 +15,23 @@ Edge Cases:
 Test-Cases
 3) It may be the start of LHS
 4) It may be end of LHS
+5) It may also happen that element can be repeated again
 """
 
 # BRUTE FORCE SOLUTION
+# Linear search
+"""
+Iterate the list and check if the element is present in that list
+"""
+def fetch_the_card(list_of_cards,card_to_pick):
+    for card in list_of_cards:
+        if card == card_to_pick:
+            return card
+    return -1
+
+if __name__=="__main__":
+    list_of_cards=[0,1,3,4,5,311,6724,6,6,7,8,8,9,10]
+    print(fetch_the_card(list_of_cards,1000))
+    print(fetch_the_card(list_of_cards,10))
+    print(fetch_the_card(list_of_cards,200))
 
