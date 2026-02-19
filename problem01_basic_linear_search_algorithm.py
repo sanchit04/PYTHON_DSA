@@ -23,9 +23,9 @@ Test-Cases
 """
 Iterate the list and check if the element is present in that list
 """
-def fetch_th_card(list_of_cards,card_to_pick):
+def fetch_the_card(list_of_cards,card_to_pick):
     for card in list_of_cards:
-        if card == card_to_pick:
+        if card == card_to_picks:
             return card
     return -1
 
