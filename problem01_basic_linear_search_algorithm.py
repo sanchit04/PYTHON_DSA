@@ -30,7 +30,7 @@ def fetch_the_card(list_of_cards,card_to_pick):
     return -1
 
 if __name__=="__main__":
-    list_of_cards=[0,1,3,4,5,311,6724,6,6,7,8,8,9103]
+    list_of_cards=[0,1,3,4,5,311,6724,6,6,7,8,8,91l03]
     print(fetch_the_card(list_of_cards,0))
     print(fetch_the_card(list_of_cards,102))
     print(fetch_the_card(list_of_cards,200))
